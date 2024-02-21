@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.box {
+ 
+  font-family: sans-serif;
+  width: 200px;
+  height:300px;
+  background-color: dodgerblue;
+  color: #fff;
+  border-radius: 10px;
+  animation: ;
+}
+
+.box::before {
+  background-image: linear-gradient(red, yellow, green, blue);
+}
+
+.box::after {
+}
